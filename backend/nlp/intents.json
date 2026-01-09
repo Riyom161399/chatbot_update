@@ -1,0 +1,1001 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "examples": [
+        "hello",
+        "hi",
+        "hey",
+        "hlw",
+        "hlo",
+        "good morning",
+        "sup",
+        "salam",
+        "assalamu alaikum",
+        "hi there",
+        "greetings",
+        "hello bot"
+      ],
+      "response": "Hi! Welcome to CUET Assistant 👋 How can I help you today?"
+    },
+    {
+      "intent": "bot_identity",
+      "examples": [
+        "who are you",
+        "what is your name",
+        "who made you",
+        "are you a bot",
+        "intro",
+        "introduce yourself",
+        "what do you do",
+        "tell me about yourself"
+      ],
+      "response": "I am the CUET Virtual Assistant 🤖, created to help students navigate campus life! I can guide you about locations, admission, and facilities."
+    },
+    {
+      "intent": "admin_vc",
+      "examples": [
+        "who is the vc",
+        "vice chancellor name",
+        "current vc",
+        "head of university",
+        "vc sir name",
+        "name of vice chancellor",
+        "who runs cuet"
+      ],
+      "response": "👨‍🏫 The current Vice-Chancellor of CUET is **Prof. Dr. Mahmud Abdul Matin Bhuiyan**."
+    },
+    {
+      "intent": "cuet_location",
+      "examples": [
+        "where is cuet",
+        "cuet location",
+        "address",
+        "how to reach cuet",
+        "map",
+        "cuet kothay",
+        "location of campus",
+        "how far is cuet from city"
+      ],
+      "response": "📍 CUET is located in **Raozan, Chittagong**, beside the Kaptai Highway. It is approximately **25km** from Chittagong city center (Bahaddarhat)."
+    },
+    {
+      "intent": "transport_bus",
+      "examples": [
+        "bus schedule",
+        "transport",
+        "bus route",
+        "city bus",
+        "bus time",
+        "when does the bus leave",
+        "student bus",
+        "bus for students",
+        "campus bus"
+      ],
+      "response": "🚌 CUET has a dedicated bus fleet. Buses usually leave campus at **1:15 PM, 2:30 PM, and 5:30 PM**. \nNote: Schedules change during exams/holidays, so always check the notice board."
+    },
+    {
+      "intent": "transport_local",
+      "examples": [
+        "local transport",
+        "cng",
+        "how to go to city without bus",
+        "rickshaw",
+        "transport off time",
+        "kaptai road bus"
+      ],
+      "response": "🛺 If you miss the university bus, you can take a **CNG** or local bus (like 'Paharika' or 'Drutojan') from the CUET Main Gate to Bahaddarhat or Kaptai Raster Matha."
+    },
+    {
+      "intent": "facilities_medical",
+      "examples": [
+        "medical center",
+        "doctor",
+        "hospital",
+        "ambulance",
+        "sick",
+        "emergency",
+        "health center",
+        "medical facilities"
+      ],
+      "response": "🏥 The **CUET Medical Center** is open **24/7** for emergencies. It provides free basic treatment, medicine, and has an ambulance service for referrals to city hospitals."
+    },
+    {
+      "intent": "facilities_incubator",
+      "examples": [
+        "incubator",
+        "it park",
+        "business incubator",
+        "sheikh kamal it incubator",
+        "startup facilities",
+        "hitech park"
+      ],
+      "response": "🚀 **Sheikh Kamal IT Business Incubator** at CUET is the first campus-based incubator in Bangladesh! It supports startups, innovation, and provides office space for tech companies."
+    },
+    {
+      "intent": "academic_calendar",
+      "examples": [
+        "weekend",
+        "holiday",
+        "when is university closed",
+        "class days",
+        "weekly holiday",
+        "is friday off"
+      ],
+      "response": "🗓️ The weekly holidays are usually **Thursday and Friday**. Administrative offices are open Sunday to Wednesday (9 AM - 5 PM)."
+    },
+    {
+      "intent": "dept_cse",
+      "examples": [
+        "cse department",
+        "computer science",
+        "what is cse",
+        "cse labs",
+        "about cse dept",
+        "computer engineering"
+      ],
+      "response": "💻 **CSE (Computer Science & Engineering)** is a top-tier department known for its programming culture. It has advanced labs for AI, Robotics, and Networking."
+    },
+    {
+      "intent": "dept_me",
+      "examples": [
+        "me department",
+        "mechanical engineering",
+        "mechanical dept",
+        "me labs",
+        "about mechanical",
+        "machinery"
+      ],
+      "response": "⚙️ **Mechanical Engineering (ME)** is a core engineering branch at CUET with state-of-the-art labs for Thermodynamics, Fluid Mechanics, and Heat Engine research."
+    },
+    {
+      "intent": "dept_arch",
+      "examples": [
+        "architecture department",
+        "arch dept",
+        "about architecture",
+        "design department",
+        "b.arch"
+      ],
+      "response": "🏛️ The **Department of Architecture** (est. 2009) focuses on sustainable design and urban planning. Students here participate in rigorous design studios and jury presentations."
+    },
+    {
+      "intent": "admission_info",
+      "examples": [
+        "admission process",
+        "how to apply",
+        "exam date",
+        "seat plan",
+        "requirements",
+        "total seats",
+        "admission circular"
+      ],
+      "response": "🎓 Admission is via the **Cluster System (CKRuET)**. There are approximately **920+ seats** available across all departments. Check the official website for the latest circular."
+    },
+    {
+      "intent": "grading_system",
+      "examples": [
+        "grading system",
+        "cgpa",
+        "gpa calculation",
+        "pass marks",
+        "fail",
+        "what is a minus",
+        "grading scale"
+      ],
+      "response": "📊 CUET follows a 4.00 scale:\n**A+ (4.00)**: 80%+\n**A (3.75)**: 75-79%\n**A- (3.50)**: 70-74%\n**B+ (3.25)**: 65-69%\n**Pass (D)**: 40%"
+    },
+    {
+      "intent": "campus_spots",
+      "examples": [
+        "famous spots",
+        "where to hang out",
+        "gol chattar",
+        "shantir dip",
+        "places to visit",
+        "central field",
+        "sightseeing"
+      ],
+      "response": "🌳 Popular hangout spots include:\n1. **Gol Chattar** (The main roundabout)\n2. **Shantir Dip** (Peace Island)\n3. **Central Field**\n4. **Joy Bangla Sculpture**"
+    },
+    {
+      "intent": "market_shopping",
+      "examples": [
+        "market",
+        "where to buy food",
+        "shopping",
+        "pahartali",
+        "grocery",
+        "daily needs",
+        "bazaar"
+      ],
+      "response": "🛒 For daily needs, students go to **Pahartali** (just outside the main gate). For bigger shopping, students travel to **Kaptai Raster Matha** or the city."
+    },
+    {
+      "intent": "halls_general",
+      "examples": [
+        "halls",
+        "hostel",
+        "accommodation",
+        "where to stay",
+        "list of halls",
+        "student residence"
+      ],
+      "response": "🏠 CUET has 5 male halls (Bangabandhu, Shaheed Smriti, QK, TBH, Ahsanullah) and 1 female hall (Sufia Kamal). Halls are allotted based on merit and distance."
+    },
+    {
+      "intent": "hall_dining",
+      "examples": [
+        "hall food",
+        "dining",
+        "mess",
+        "food menu",
+        "lunch time",
+        "dinner time",
+        "what do we eat"
+      ],
+      "response": "🍚 Hall dining operates on a token system.\n**Lunch:** 1:00 PM - 2:30 PM\n**Dinner:** 8:00 PM - 9:30 PM.\nTokens must be bought in the morning."
+    },
+    {
+      "intent": "ragging_policy",
+      "examples": [
+        "ragging",
+        "rag day",
+        "junior senior",
+        "bullying",
+        "is ragging allowed",
+        "safety",
+        "complaint"
+      ],
+      "response": "🚫 **Zero Tolerance:** Ragging is strictly prohibited at CUET. If you face any harassment, report immediately to the **Proctorial Body** or Student Welfare Director."
+    },
+    {
+      "intent": "student_clubs",
+      "examples": [
+        "clubs",
+        "organizations",
+        "join club",
+        "robotics club",
+        "debating club",
+        "green for peace",
+        "extra curricular"
+      ],
+      "response": "🚀 Vibrant clubs at CUET:\n- **Robotics Club**\n- **Debating Society**\n- **Computer Club**\n- **Photography Society**\n- **Green for Peace**\n- **Joydhoni** (Cultural)"
+    },
+    {
+      "intent": "cse_head",
+      "examples": [
+        "head of cse",
+        "cse department head",
+        "chairman of cse",
+        "who is cse head",
+        "cse head sir name"
+      ],
+      "response": "👨‍🏫 The current Head of the Department of CSE is **Prof. Dr. Pranab Kumar Dhar**. You can find him in the CSE office on the 2nd floor of the Academic Building."
+    },
+    {
+      "intent": "cse_faculty",
+      "examples": [
+        "cse teachers",
+        "faculty members of cse",
+        "cse teacher list",
+        "how many teachers in cse",
+        "professors in cse"
+      ],
+      "response": "👨‍🏫 The CSE department has a distinguished faculty team including **Prof. Dr. Kaushik Deb, Prof. Dr. Md. Ibrahim Khan, and Prof. Dr. Asaduzzaman**. There are over 35+ faculty members specializing in AI, Data Science, and Systems."
+    },
+    {
+      "intent": "cse_labs",
+      "examples": [
+        "cse labs",
+        "labs in cse",
+        "computer labs",
+        "facilities in cse",
+        "what labs are there in cse"
+      ],
+      "response": "🖥️ CSE boasts state-of-the-art laboratories:\n1. **Mobile Games & Apps Dev Lab**\n2. **Robotics & Mechatronics Lab**\n3. **Network & Hardware Lab**\n4. **Artificial Intelligence Lab**\n5. **Software Engineering Lab**\n6. **Operating Systems Lab**"
+    },
+    {
+      "intent": "cse_syllabus",
+      "examples": [
+        "cse syllabus",
+        "cse courses",
+        "what do we study in cse",
+        "credit hours cse",
+        "course curriculum"
+      ],
+      "response": "📚 The CSE curriculum covers 160+ credits over 4 years. Key courses include:\n- **Structured & Object Oriented Programming**\n- **Data Structures & Algorithms**\n- **Discrete Math**\n- **Database Systems**\n- **Artificial Intelligence**\n- **Compiler Design**"
+    },
+    {
+      "intent": "cse_research",
+      "examples": [
+        "cse research",
+        "research areas cse",
+        "thesis topics cse",
+        "publications",
+        "research fields"
+      ],
+      "response": "🔬 Major research areas in CUET CSE include:\n- **Computer Vision & Image Processing**\n- **Natural Language Processing (NLP)**\n- **Bioinformatics**\n- **Cyber Security**\n- **Internet of Things (IoT)**"
+    },
+    {
+      "intent": "cse_achievements",
+      "examples": [
+        "cse achievements",
+        "icpc ranking",
+        "contest results",
+        "awards",
+        "hackathon",
+        "nasa space apps"
+      ],
+      "response": "🏆 **Pride of CUET:**\n- Regular **ICPC World Finals** qualifiers.\n- Champions in **NASA Space Apps Challenge** (multiple years).\n- Top rankings in **NCPC** and **Inter-University Hackathons**."
+    },
+    {
+      "intent": "cse_clubs_specific",
+      "examples": [
+        "cse clubs",
+        "computer club",
+        "acm student chapter",
+        "ieee cs chapter",
+        "activities in cse"
+      ],
+      "response": "🚀 **CSE Student Activities:**\n- **CUET Computer Club (CCC):** Organizes workshops and fests.\n- **ACCE:** The association of CSE students.\n- **IEEE CS Student Branch:** For research and seminars."
+    },
+    {
+      "intent": "cse_fest",
+      "examples": [
+        "cse fest",
+        "tech fest cse",
+        "programmers week",
+        "hackathon date",
+        "cultural night cse"
+      ],
+      "response": "🎉 The department organizes a grand **CSE Fest** annually! It features:\n- **CodeStorm** (Programming Contest)\n- **Robo-Soccer**\n- **Project Showcasing**\n- **Gaming Contest** (FIFA/Valorant)\n- **Cultural Night**"
+    },
+    {
+      "intent": "cse_alumni",
+      "examples": [
+        "cse alumni",
+        "job sectors",
+        "where do cse graduates work",
+        "career after cse",
+        "google microsoft cuet"
+      ],
+      "response": "💼 CUET CSE graduates are working globally at **Google, Amazon, Microsoft, Agoda**, and top local firms like **Therap, BJIT, and Enosis**. Many are also pursuing PhDs in USA/Canada."
+    },
+    {
+      "intent": "cse_contact",
+      "examples": [
+        "cse office",
+        "contact cse",
+        "cse department location",
+        "cse phone number",
+        "email of cse head"
+      ],
+      "response": "📍 **CSE Department Office:**\n- **Location:** 2nd Floor, New Academic Building (Block B).\n- **Email:** headcse@cuet.ac.bd\n- **Website:** cuet.ac.bd/department/cse"
+    },
+    {
+      "intent": "dept_eee",
+      "examples": [
+        "eee department",
+        "electrical engineering",
+        "about eee",
+        "eee labs",
+        "electrical department"
+      ],
+      "response": "⚡ **EEE (Electrical & Electronic Engineering)** is one of the oldest and largest departments at CUET. It focuses on Power Systems, Electronics, and Telecommunications."
+    },
+    {
+      "intent": "dept_civil",
+      "examples": [
+        "civil department",
+        "ce department",
+        "about civil engineering",
+        "ce labs",
+        "structure department"
+      ],
+      "response": "🏗️ **Civil Engineering (CE)** is the founding department of CUET. It houses the massive **Concrete Lab** and **Environmental Engineering Lab** and conducts vital research on earthquake resistance."
+    },
+    {
+      "intent": "dept_ete",
+      "examples": [
+        "ete department",
+        "telecom department",
+        "electronics and telecommunication",
+        "about ete"
+      ],
+      "response": "📡 **ETE (Electronics & Telecommunication Engineering)** focuses on wireless communication, optical fibers, and signal processing. It is located in the new academic block."
+    },
+    {
+      "intent": "dept_mie",
+      "examples": [
+        "mie department",
+        "mechatronics",
+        "material science",
+        "about mie"
+      ],
+      "response": "🤖 **MIE (Mechatronics & Industrial Engineering)** combines robotics, control systems, and manufacturing management. It is a multidisciplinary department bridging Mech and EEE."
+    },
+    {
+      "intent": "dept_urp",
+      "examples": [
+        "urp department",
+        "urban planning",
+        "city planning",
+        "about urp"
+      ],
+      "response": "cityscape **URP (Urban & Regional Planning)** deals with town planning, GIS, and disaster management. Students often work on real-world city projects."
+    },
+    {
+      "intent": "dept_pme",
+      "examples": [
+        "pme department",
+        "petroleum engineering",
+        "mining department",
+        "about pme"
+      ],
+      "response": "⛏️ **PME (Petroleum & Mining Engineering)** is a unique department at CUET, focusing on energy resources, gas fields, and mining technology."
+    },
+    {
+      "intent": "dept_wre",
+      "examples": [
+        "wre department",
+        "water resources",
+        "water engineering",
+        "about wre"
+      ],
+      "response": "💧 **WRE (Water Resources Engineering)** focuses on hydraulics, river engineering, and fluid dynamics. It plays a key role in national water management research."
+    },
+    {
+      "intent": "dept_bme",
+      "examples": ["bme department", "biomedical engineering", "about bme"],
+      "response": "🧬 **Biomedical Engineering (BME)** is one of the newest departments, merging engineering with medical science to develop prosthetics and medical devices."
+    },
+    {
+      "intent": "dept_mse",
+      "examples": ["mse department", "materials science", "about mse"],
+      "response": "🧪 **MSE (Materials Science & Engineering)** studies the properties of matter, nanotechnology, and new material development for industry."
+    },
+    {
+      "intent": "admin_registrar",
+      "examples": [
+        "registrar office",
+        "where is registrar",
+        "contact registrar",
+        "admin building location"
+      ],
+      "response": "🏢 The **Registrar Office** is located on the Ground Floor of the **Administrative Building**. They handle official files, recruitment, and legal matters."
+    },
+    {
+      "intent": "admin_controller",
+      "examples": [
+        "controller of exam",
+        "exam controller office",
+        "certificate section",
+        "transcript office"
+      ],
+      "response": "📝 The **Controller of Examinations** office is in the Administrative Building. Visit here for transcripts, certificates, and exam-related corrections."
+    },
+    {
+      "intent": "admin_dsw",
+      "examples": [
+        "dsw",
+        "director of student welfare",
+        "student welfare office",
+        "who helps students"
+      ],
+      "response": "🤝 **DSW (Director of Students' Welfare)** oversees student activities, club approvals, and discipline. The office is located near the Auditorium complex."
+    },
+    {
+      "intent": "library_central",
+      "examples": [
+        "library",
+        "central library",
+        "books",
+        "reading room",
+        "library location"
+      ],
+      "response": "📚 The **Central Library** is a distinct building near the turning point of the main road. It has a vast collection of engineering texts, journals, and a quiet reading room."
+    },
+    {
+      "intent": "library_card",
+      "examples": [
+        "how to get library card",
+        "borrow books",
+        "library membership"
+      ],
+      "response": "💳 To get a **Library Card**, submit the application form (available at the counter) along with a passport-size photo and your student ID copy to the librarian."
+    },
+    {
+      "intent": "library_hours",
+      "examples": [
+        "library open time",
+        "when does library close",
+        "reading room schedule"
+      ],
+      "response": "⏰ **Library Hours:**\nSunday - Wednesday: 9:00 AM - 8:00 PM\nThursday: 9:00 AM - 5:00 PM\n(Hours may vary during vacations)."
+    },
+    {
+      "intent": "mosque_central",
+      "examples": ["mosque", "prayer hall", "jumma", "central mosque location"],
+      "response": "🕌 The **Central Mosque** is located atop a scenic hill near the main gate. It is the largest prayer space on campus and hosts Jumma prayers for everyone."
+    },
+    {
+      "intent": "temple_worship",
+      "examples": ["temple", "mondir", "puja", "hindu prayer"],
+      "response": "🛕 There is a designated prayer room/mandir for Hindu students located near the residential halls for daily worship and festivals."
+    },
+    {
+      "intent": "bank_rupali",
+      "examples": ["bank", "rupali bank", "where to pay fees", "bank branch"],
+      "response": "🏦 **Rupali Bank** has a branch inside the campus (near the Post Office). This is where you typically pay semester fees and hall dues."
+    },
+    {
+      "intent": "atm_booth",
+      "examples": ["atm", "where to withdraw money", "bkash", "cash out"],
+      "response": "🏧 **ATM Booths:**\n1. Dutch-Bangla Bank (DBBL) ATM near the Main Gate.\n2. Rupali Bank ATM near the Bank branch."
+    },
+    {
+      "intent": "post_office",
+      "examples": ["post office", "courier", "mailing address", "post code"],
+      "response": "yw📮 The **Campus Post Office** is located in the utility building area. The postal code for CUET is **4349**."
+    },
+    {
+      "intent": "cafeteria_central",
+      "examples": ["cafeteria", "canteen", "lunch", "snacks", "central cafe"],
+      "response": "🍔 The **Central Cafeteria** is located near the Administrative Building. It serves breakfast, lunch, and snacks at subsidized rates for students and staff."
+    },
+    {
+      "intent": "tsc_center",
+      "examples": [
+        "tsc",
+        "teacher student center",
+        "cultural center",
+        "auditorium"
+      ],
+      "response": "🎭 **TSC (Teacher-Student Center)** includes the Auditorium and club rooms. It is the hub for cultural activities, fests, and large seminars."
+    },
+    {
+      "intent": "gymnasium",
+      "examples": ["gym", "exercise", "fitness center", "workout"],
+      "response": "🏋️‍♂️ The **CUET Gymnasium** is well-equipped for students. It is located near the Central Field and includes weights, treadmills, and table tennis facilities."
+    },
+    {
+      "intent": "sports_central_field",
+      "examples": [
+        "field",
+        "playground",
+        "football",
+        "cricket",
+        "central field"
+      ],
+      "response": "⚽ The **Central Field** is huge and hosts inter-department football and cricket tournaments. It is located in the valley between the academic blocks and halls."
+    },
+    {
+      "intent": "sports_courts",
+      "examples": ["basketball", "tennis", "volleyball", "badminton"],
+      "response": "🏀 **Sports Courts:**\n- Basketball Court (near Hall Gate)\n- Tennis Court (near Staff Quarters)\n- Volleyball/Badminton courts are available in every hall."
+    },
+    {
+      "intent": "hall_bangabandhu",
+      "examples": ["bangabandhu hall", "bb hall", "bor hall", "largest hall"],
+      "response": "🏠 **Bangabandhu Hall** is one of the largest male halls, located centrally. It is known for its pond view and vibrant student politics."
+    },
+    {
+      "intent": "hall_shaheed_smriti",
+      "examples": ["shaheed smriti hall", "ss hall", "south hall"],
+      "response": "🏠 **Shaheed Smriti Hall** is located on the southern side of the campus. It has a strong sports culture and its own dining facilities."
+    },
+    {
+      "intent": "hall_qk",
+      "examples": ["qk hall", "qudrat e khuda hall", "dr qk hall"],
+      "response": "🏠 **Dr. Qudrat-E-Khuda Hall (QK Hall)** is situated near the hill slope. It is known for its peaceful environment and strong alumni network."
+    },
+    {
+      "intent": "hall_sufia_kamal",
+      "examples": [
+        "sufia kamal hall",
+        "ladies hall",
+        "girls hostel",
+        "female hall"
+      ],
+      "response": "🏠 **Sufia Kamal Hall** is the main female residence. It has high security, an internal garden, a canteen, and strict entry timings for safety."
+    },
+    {
+      "intent": "hall_sheikh_russel",
+      "examples": ["sheikh russel hall", "new hall", "latest hall"],
+      "response": "🏠 **Sheikh Russel Hall** is the newest addition to CUET's residential facilities, featuring modern architecture and improved amenities."
+    },
+    {
+      "intent": "academic_transcript",
+      "examples": [
+        "how to get transcript",
+        "official transcript",
+        "grade sheet"
+      ],
+      "response": "📄 To get an **Official Transcript**, apply through the Controller of Examinations office with the required fee receipt from Rupali Bank."
+    },
+    {
+      "intent": "academic_provisional",
+      "examples": [
+        "provisional certificate",
+        "temporary certificate",
+        "passing certificate"
+      ],
+      "response": "🎓 **Provisional Certificates** are issued after you complete all credits. You need to submit a clearance form signed by Hall, Library, and Dept."
+    },
+    {
+      "intent": "clearance_process",
+      "examples": [
+        "clearance",
+        "form fill up",
+        "hall clearance",
+        "library clearance"
+      ],
+      "response": "✅ **Clearance Process:** Before graduation or receiving certificates, you must obtain 'No Dues' signatures from your Hall Provost, Librarian, DSW, and Dept Head."
+    },
+    {
+      "intent": "wifi_setup",
+      "examples": [
+        "wifi password",
+        "how to connect wifi",
+        "internet access",
+        "iict wifi"
+      ],
+      "response": "📶 To access **CUET Wi-Fi**, register your device MAC address at the **IICT Office**. They will provide you with a unique username and password."
+    },
+    {
+      "intent": "email_student",
+      "examples": ["student email", "edu mail", "domain mail", "gsuite"],
+      "response": "📧 Every student gets a **@cuet.ac.bd** email address. This email gives you unlimited Google Drive storage and discounts on software like GitHub/JetBrains."
+    },
+    {
+      "intent": "iict_office",
+      "examples": ["iict", "server room", "computer center", "where is iict"],
+      "response": "💻 **IICT (Institute of Information & Communication Technology)** manages the campus network. It is located in the New Academic Building."
+    },
+    {
+      "intent": "pmec_building",
+      "examples": ["pmec", "civil building", "old building", "main building"],
+      "response": "🏢 **PMEC (Pre-Engineering Building)** is the oldest academic block. It currently houses the Civil Engineering department and several main lecture galleries."
+    },
+    {
+      "intent": "west_gallery",
+      "examples": ["west gallery", "class room", "large class"],
+      "response": "🎓 **West Gallery** is a famous large lecture hall in the PMEC building, used for combined classes and exams."
+    },
+    {
+      "intent": "bus_teacher",
+      "examples": ["teacher bus", "staff bus", "faculty transport"],
+      "response": "🚌 **Teacher/Staff Buses** have different schedules and colors (usually White/AC). Students are generally not allowed on these unless permitted during emergencies."
+    },
+    {
+      "intent": "bus_weekend",
+      "examples": ["weekend bus", "friday bus", "saturday bus schedule"],
+      "response": "🚌 **Weekend Bus Service:** On Fridays and Saturdays, bus frequency is reduced. Usually, there is one morning trip (around 8-9 AM) and one evening trip. Check the notice board for exact times."
+    },
+    {
+      "intent": "scholarship_govt",
+      "examples": [
+        "scholarship",
+        "stipend",
+        "board scholarship",
+        "financial aid"
+      ],
+      "response": "💰 **Board Scholarships** and Govt Stipends are processed through the Academic Section. Keep an eye on the notice board for application deadlines."
+    },
+    {
+      "intent": "club_joydhoni",
+      "examples": ["joydhoni", "music club", "singing", "band"],
+      "response": "🎶 **Joydhoni** is the cultural organization of CUET. They organize musical nights, Baishakhi Utshob, and cultural competitions."
+    },
+    {
+      "intent": "club_green_for_peace",
+      "examples": [
+        "green for peace",
+        "environmental club",
+        "tree plantation",
+        "social work"
+      ],
+      "response": "🌿 **Green For Peace** is a voluntary organization focusing on environmental awareness, tree plantation, and social welfare activities."
+    },
+    {
+      "intent": "club_graffiti",
+      "examples": ["graffiti", "art club", "painting", "wall art"],
+      "response": "🎨 **Graffiti** is the art club of CUET. They are responsible for the beautiful wall art and alpanas you see around campus during festivals."
+    },
+    {
+      "intent": "club_robo",
+      "examples": ["robo mechatronics", "robotics club", "rmc", "robot making"],
+      "response": "🤖 **Robo Mechatronics Club (RMC)** is the hub for robotics enthusiasts. They conduct workshops on Arduino, IoT, and participate in Robo Wars."
+    },
+    {
+      "intent": "club_debating",
+      "examples": [
+        "cuetds",
+        "debating society",
+        "debate club",
+        "public speaking"
+      ],
+      "response": "🗣️ **CUET Debating Society (CUETDS)** is one of the most active clubs, organizing inter-department and inter-university debate championships."
+    },
+    {
+      "intent": "emergency_fire",
+      "examples": ["fire", "fire station", "fire emergency"],
+      "response": "🔥 In case of fire, alert the security immediately. The nearest Fire Service station is in **Raozan** and **Kaptai Road**."
+    },
+    {
+      "intent": "emergency_security",
+      "examples": ["security", "guard", "unsafe", "theft"],
+      "response": "👮 **Campus Security** is available 24/7 at the Main Gate and Hall Gates. For immediate help, contact the Proctorial Body."
+    },
+    {
+      "intent": "guest_house",
+      "examples": ["guest house", "parents stay", "visitor accommodation"],
+      "response": "🏡 CUET has a **Guest House** and **Cum-Club** for visiting faculty and parents. Prior booking through the Registrar's office is required."
+    },
+    {
+      "intent": "counseling_student",
+      "examples": ["mental health", "counseling", "depression", "psychologist"],
+      "response": "🧠 The **Student Welfare Office** arranges psychological counseling. If you are feeling stressed or depressed, please reach out to the Student Advisor of your department."
+    },
+    {
+      "intent": "exam_supple",
+      "examples": [
+        "supplementary exam",
+        "improvement exam",
+        "retake",
+        "short term"
+      ],
+      "response": "📝 **Short Term/Supplementary Exams** are held after the main results for students with backlogs (F grades). You must register for these courses separately."
+    },
+    {
+      "intent": "credit_system",
+      "examples": ["credits", "how many credits", "credit hour"],
+      "response": "📊 Each course is assigned **Credits** (usually 3.0 or 1.5). You must complete approx 160-162 credits (depending on dept) to graduate."
+    },
+    {
+      "intent": "convocation_info",
+      "examples": ["convocation", "graduation ceremony", "next convocation"],
+      "response": "🎓 **Convocation** is the grand graduation ceremony. It is held periodically. Graduates must register online when the circular is published by the Controller of Exams."
+    },
+    {
+      "intent": "alumni_association",
+      "examples": ["alumni", "ex students", "network", "convocation"],
+      "response": "🤝 The **CUET Alumni Association** is a strong network of graduates working globally. They organize reunions and offer mentorship to current students."
+    },
+    {
+      "intent": "rag_concert",
+      "examples": [
+        "rag concert",
+        "farewell concert",
+        "band show",
+        "music fest"
+      ],
+      "response": "🎸 The **Rag Concert** is the farewell musical event organized by the graduating batch, featuring top bands from the country."
+    },
+    {
+      "intent": "dept_fest_mechanical",
+      "examples": ["yantrakoushol", "me fest", "mechanical festival"],
+      "response": "⚙️ **Yantrakoushol** is the signature tech fest of the Mechanical Engineering department, featuring CAD contests and engine assembly challenges."
+    },
+    {
+      "intent": "dept_fest_civil",
+      "examples": ["cenovation", "civil fest", "bridge making"],
+      "response": "🏗️ **CENOVATION** is the national tech fest organized by the Civil Engineering department, famous for its bridge-building and concrete cube contests."
+    },
+    {
+      "intent": "dept_fest_eee",
+      "examples": ["trub", "eee fest", "circuit solving"],
+      "response": "⚡ **Tariit** (or similar EEE fests) are organized by the EEE department, focusing on circuit solving, robotics, and project showcasing."
+    },
+    {
+      "intent": "location_lake",
+      "examples": ["lake", "pond", "water body", "scenery"],
+      "response": "🌊 The **Lake/Pond** in front of Bangabandhu Hall is a scenic spot, especially during sunset. It's a favorite place for students to relax."
+    },
+    {
+      "intent": "location_hills",
+      "examples": ["hills", "mountains", "hiking", "nature"],
+      "response": "🏔️ CUET is a **Green Campus** nestled among hills. Students often hike up to the Water Tank hill or the Observatory hill for a panoramic view."
+    },
+    {
+      "intent": "weather_campus",
+      "examples": ["weather", "is it raining", "climate"],
+      "response": "☁️ Being in a hilly area, CUET experiences **heavy rainfall** during monsoons and can be quite foggy in winter. Always carry an umbrella!"
+    },
+    {
+      "intent": "dress_code",
+      "examples": ["dress code", "uniform", "what to wear"],
+      "response": "👕 There is no strict **Uniform**, but students are expected to wear **decent and formal/semi-formal attire** in classes and labs. Sandals/slippers are often discouraged in labs."
+    },
+    {
+      "intent": "id_card",
+      "examples": ["id card", "student id", "lost id card"],
+      "response": "🆔 You must carry your **Student ID** at all times. If lost, file a GD at the police station and apply for a replacement at the Proctor's office."
+    },
+    {
+      "intent": "bus_route_city",
+      "examples": ["bus stops", "where does bus stop", "city route"],
+      "response": "🚌 **City Bus Route:** Campus -> Raozan -> Kaptai Road -> Mohra -> Bahaddarhat -> GEC -> New Market (routes vary by bus number)."
+    },
+    {
+      "intent": "cafe_hours",
+      "examples": ["canteen open time", "cafe schedule"],
+      "response": "🕒 The **Central Cafeteria** is usually open from **7:30 AM to 9:00 PM**. Hall dining times are strictly for Lunch (1-2:30) and Dinner (8-9:30)."
+    },
+    {
+      "intent": "laundry_service",
+      "examples": ["laundry", "wash clothes", "ironing", "dhopa"],
+      "response": "b🧺 Every residential hall has a **Laundry Shop** nearby where you can get clothes washed and ironed at a cheap rate."
+    },
+    {
+      "intent": "barber_shop",
+      "examples": ["haircut", "barber", "salon"],
+      "response": "✂️ There are **Barber Shops** (Saloons) located in the market area near the staff quarters and near the main hall gates."
+    },
+    {
+      "intent": "grocery_shop",
+      "examples": ["shop", "buy soap", "buy snacks", "stationary"],
+      "response": "🛍️ There are **Departmental Stores** within the campus staff market and small shops in every hall gate for daily necessities."
+    },
+    {
+      "intent": "photocopy_print",
+      "examples": ["print", "photocopy", "xerox", "lab report print"],
+      "response": "🖨️ **Photocopy Centers** are available in the **TSC**, **Library**, and **Staff Market**. They also offer binding services for thesis papers."
+    },
+    {
+      "intent": "parking_student",
+      "examples": ["parking", "bike parking", "car parking"],
+      "response": "🅿️ Students can park bicycles and motorbikes in designated **Parking Sheds** near the academic buildings and halls."
+    },
+    {
+      "intent": "lost_and_found",
+      "examples": ["lost phone", "found wallet", "lost item"],
+      "response": "🔍 **Lost & Found:** If you lose or find something, please report it to the **Student Welfare Office** or post in the 'CUET Family' Facebook group."
+    },
+    {
+      "intent": "rag_day_costume",
+      "examples": ["rag day costume", "flashmob", "color fest"],
+      "response": "🎭 On **Rag Day**, graduating students wear colorful costumes, organize flashmobs, and parade around the campus celebrating their journey."
+    },
+    {
+      "intent": "research_centers",
+      "examples": ["research center", "centers", "bureau of research"],
+      "response": "🔬 CUET has several research wings, including the **Bureau of Research, Testing and Consultation (BRTC)**, which handles industrial projects."
+    },
+    {
+      "intent": "internship_info",
+      "examples": ["internship", "industrial attachment", "training"],
+      "response": "🏭 **Industrial Attachment:** Departments arrange internships for 3rd/4th-year students at companies like KAFCO, TSP, BSRM, and Power Plants."
+    },
+    {
+      "intent": "vice_chancellor_office",
+      "examples": ["vc office", "where is vc sir", "meet vc"],
+      "response": "🏢 The **Vice-Chancellor's Office** is on the 1st/2nd floor of the Administrative Building. Appointments are usually required to meet him."
+    },
+    {
+      "intent": "proctor_office",
+      "examples": ["proctor", "proctor office", "discipline"],
+      "response": "⚖️ The **Proctor's Office** handles security and discipline. It is located in the Administrative Building. The Proctorial body patrols the campus regularly."
+    },
+    {
+      "intent": "academic_building_new",
+      "examples": ["new academic building", "nab", "block b"],
+      "response": "🏢 The **New Academic Building** houses the CSE, ETE, and several other departments. It is a multi-storied complex with elevators."
+    },
+    {
+      "intent": "water_supply",
+      "examples": ["drinking water", "water filter", "is water safe"],
+      "response": "💧 **Drinking Water:** Most academic buildings and halls have water purifiers/filters. It is advisable to carry a water bottle."
+    },
+    {
+      "intent": "electricity_backup",
+      "examples": ["load shedding", "generator", "power cut"],
+      "response": "⚡ CUET has its own **Power Station** and heavy-duty generators. Academic areas rarely face outages, but halls might experience scheduled load shedding."
+    },
+    {
+      "intent": "lab_safety",
+      "examples": ["lab safety", "apron", "goggles"],
+      "response": "🥽 **Safety First:** You must wear an **Apron** and **Safety Shoes** in Mechanical and Civil labs. Goggles are mandatory for Chemistry labs."
+    },
+    {
+      "intent": "student_union",
+      "examples": ["student union", "ucsu", "politics"],
+      "response": "📢 **Student Union:** While there is no central student union election recently, department associations and clubs represent student interests."
+    },
+    {
+      "intent": "admission_international",
+      "examples": [
+        "foreign student",
+        "international admission",
+        "nepali students"
+      ],
+      "response": "🌍 CUET welcomes international students (mostly from Nepal, Sri Lanka, Somalia) under specific quotas. Applications are routed through the Ministry of Education."
+    },
+    {
+      "intent": "campus_size",
+      "examples": ["area", "how big is cuet", "campus acreage"],
+      "response": "🌲 The CUET campus spans approximately **188 acres** of lush green hills and valleys."
+    },
+    {
+      "intent": "online_class",
+      "examples": ["online class", "zoom", "google classroom"],
+      "response": "💻 **Online Classes** are conducted via Zoom/Google Meet during emergencies or special circumstances. Links are provided by the Class Representatives (CR)."
+    },
+    {
+      "intent": "cr_responsibilities",
+      "examples": ["cr", "class representative", "what does cr do"],
+      "response": "🗣️ **Class Representative (CR):** Two students (1 male, 1 female) are selected per section to liaise between teachers and students regarding schedules and notes."
+    },
+    {
+      "intent": "exam_admit_card",
+      "examples": ["admit card", "exam paper", "entry pass"],
+      "response": "🎫 You must download and print your **Admit Card** from the student portal before every semester final exam. Without it, entry to the exam hall is denied."
+    },
+    {
+      "intent": "medical_ambulance",
+      "examples": ["ambulance number", "call ambulance", "emergency transport"],
+      "response": "🚑 **Ambulance Service:** Available 24/7. Save the Medical Center hotline number (available on the website/diary) for emergencies."
+    },
+    {
+      "intent": "helpline_general",
+      "examples": ["helpline", "contact number", "reception"],
+      "response": "📞 **General Helpline:** For general queries, call the Registrar's office PABX or check the 'Contact Us' section on www.cuet.ac.bd."
+    },
+    {
+      "intent": "tech_shops",
+      "examples": [
+        "buy electronics",
+        "resistors",
+        "arduino shop",
+        "project parts"
+      ],
+      "response": "🔌 For electronic components (Arduino, sensors), students usually go to **Ice Factory Road** in Chittagong city, though some basics are available at local shops."
+    },
+    {
+      "intent": "book_shop",
+      "examples": ["buy books", "library shop", "stationery"],
+      "response": "📚 **Book Shops** inside the campus sell notebooks, pens, and lab manuals. For academic textbooks, the library or Anderkilla (city) is best."
+    },
+    {
+      "intent": "project_showcasing",
+      "examples": ["project show", "exhibition", "science fair"],
+      "response": "📽️ **Project Showcasing** is a common part of fests where students display their semester projects to judges and industry experts."
+    },
+    {
+      "intent": "programming_contest",
+      "examples": ["programming contest", "cp", "coding battle"],
+      "response": "💻 **Competitive Programming** is huge at CUET. Regular contests are hosted in the CSE labs on platforms like Codeforces and Toph."
+    },
+    {
+      "intent": "higher_study",
+      "examples": ["masters", "phd", "msc admission", "post grad"],
+      "response": "🎓 CUET offers **M.Sc., M.Engg., and Ph.D.** programs in most engineering departments. Admission circulars are usually published twice a year."
+    },
+    {
+      "intent": "faculty_lounge",
+      "examples": ["teachers lounge", "faculty room"],
+      "response": "🛋️ The **Faculty Lounge** is a restricted area in the TSC/Admin building for teachers to relax and dine."
+    },
+    {
+      "intent": "exam_routine",
+      "examples": ["exam date", "routine", "schedule"],
+      "response": "📅 **Exam Routines** are published by the Controller of Exams 2-3 weeks before the finals. They are displayed on department notice boards."
+    },
+    {
+      "intent": "study_leave",
+      "examples": ["preparatory leave", "pl", "study gap"],
+      "response": "📖 **PL (Preparatory Leave):** Students typically get 2-3 weeks of study leave before the Semester Final exams begin."
+    },
+    {
+      "intent": "auditorium_events",
+      "examples": ["auditorium", "program", "seminar"],
+      "response": "🎤 The **Central Auditorium** hosts major events like Orientations, National Days, and Cultural Fests. It has a seating capacity of over 1000."
+    },
+    {
+      "intent": "transport_ticket",
+      "examples": ["bus ticket", "transport fee", "bus card"],
+      "response": "🎫 **Bus Service is technically free** for students (included in semester fees). You just need to show your Student ID if asked."
+    }
+  ]
+}
